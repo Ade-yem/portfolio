@@ -145,9 +145,9 @@ const GetInTouch = ({
       </div>
       <div className="p-4 block space-y-2 dm-mono-light dark:text-custom-white text-slate-800">
         <p>Socials</p>
-        <p className="max-w-[100px] flex justify-start">
+        <div className="max-w-[100px] flex justify-start">
           <SocialLinks/>
-        </p>
+        </div>
       </div>
     </div>
   );

@@ -4,7 +4,6 @@ import { Picture } from "../ui/myPic";
 import { StackCarousel } from "../ui/stackCarousel";
 import { useLocalStorage } from "../hooks/localStorage";
 
-
 export default function Hero() {
   const { theme } = useLocalStorage();
   const color = theme === "dark" ? "#62A92B" : "rgba(6, 64, 43, 1)";
@@ -20,7 +19,7 @@ export default function Hero() {
           <div className="flex flex-col space-y-2 justify-start">
             <div className="flex flex-wrap text-base text-custom-red">
               {"<span>"}
-              <TypeAnimation text={"Hi, I'm Adeyemi"} delay={2000} />
+              <TypeAnimation text={"Hi, I'm Adeyemi"} delay={500} />
               {"</span>"}
             </div>
             <div className="space-y-2">
@@ -43,7 +42,7 @@ export default function Hero() {
             </div>
           </div>
           <div className="flex space-x-2 h-fit items-end text-black dark:text-[#dee2e6]">
-            <StackCarousel maxSize="250px"/>
+            <StackCarousel maxSize="250px" />
             <p className="">... and much more</p>
           </div>
           <a

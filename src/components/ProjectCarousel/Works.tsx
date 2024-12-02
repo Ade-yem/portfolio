@@ -38,15 +38,15 @@ export const Project: React.FC<ProjectProps> = ({ project, next, prev }) => {
         </span>
         <div className="grid grid-cols-1">
           <div className="border-y border-slate-900 flex justify-between py-3">
-            <p className="dark:text-white text-custom-red">Client</p>
+            <p className="dark:text-white text-custom-red pr-2">Client</p>
             <p className="dark:text-custom-white ">{project.client}</p>
           </div>
           <div className="border-y border-slate-900 flex justify-between py-3">
-            <p className="dark:text-white text-custom-red">Duration</p>
+            <p className="dark:text-white text-custom-red pr-2">Duration</p>
             <p className="dark:text-custom-white ">{project.duration}</p>
           </div>
           <div className="border-y border-slate-900 flex justify-between py-3">
-            <p className="dark:text-white text-custom-red">Technologies</p>
+            <p className="dark:text-white text-custom-red pr-2">Technologies</p>
             <p className="dark:text-custom-white ">{project.technologies}</p>
           </div>
         </div>
@@ -113,7 +113,7 @@ export const Project: React.FC<ProjectProps> = ({ project, next, prev }) => {
                   stroke="currentColor"
                   strokeLinecap="round"
                   strokeLinejoin="round"
-                  stroke-width="2"
+                  strokeWidth="2"
                   d="M5 12h14M5 12l4-4m-4 4 4 4"
                 />
               </svg>
@@ -135,7 +135,7 @@ export const Project: React.FC<ProjectProps> = ({ project, next, prev }) => {
                   stroke="currentColor"
                   strokeLinecap="round"
                   strokeLinejoin="round"
-                  stroke-width="2"
+                  strokeWidth="2"
                   d="M19 12H5m14 0-4 4m4-4-4-4"
                 />
               </svg>
