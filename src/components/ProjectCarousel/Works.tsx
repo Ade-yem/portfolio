@@ -50,7 +50,7 @@ export const Project: React.FC<ProjectProps> = ({ project, next, prev }) => {
             <p className="dark:text-custom-white ">{project.technologies}</p>
           </div>
         </div>
-        <div className="flex justify-between py-3 cursor-pointer place-items-end">
+        <div className="flex flex-wrap justify-between py-3 cursor-pointer place-items-end">
           <a
             href={project.liveLink}
             target="blank"

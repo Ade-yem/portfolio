@@ -604,12 +604,12 @@ export default function Home() {
           <span className="dm-mono-medium text-3xl text-black dark:text-white text-center">
             My Skills
           </span>
-          <div className="grid grid-cols-1 md:divide-x md:grid-cols-2 p-10">
-            <div className="p-10 flex flex-col justify-center space-y-4">
+          <div className="grid grid-cols-1 md:divide-x md:grid-cols-2 p-4 xs:p-10">
+            <div className="p-4 xs:p-10 flex flex-col justify-center space-y-4">
               <StackCarousel maxSize="400px" p="p-4" />
               <ReverseCarousel />
             </div>
-            <div className="p-10 space-x-4">
+            <div className="p-4 xs:p-10 space-x-4">
               <ul className="list-disc marker:text-slate-800 leading-loose">
                 <li className="whitespace-nowrap">
                   <span className="text-black dark:text-white">
