@@ -1,0 +1,31 @@
+{
+  "education": [
+    {
+      "date": "2024-2024",
+      "title": "BorderlessDev",
+      "text": "Blockchain Development"
+    },
+    {
+      "date": "2022-2023",
+      "title": "ALX Software Engineering Programme",
+      "text": "Software Engineering with Specialization in Backend"
+    },
+    {
+      "date": "2017-2023",
+      "title": "Obafemi Awolowo University",
+      "text": "Bachelor's Degree in Civil Engineering"
+    },
+    {
+      "date": "2023-2023",
+      "title": "freeCodeCamp",
+      "text": "Fundamentals of Javascript"
+    }
+  ],
+  "research": [
+    {
+      "date": "2024-2024",
+      "title": "BorderlessDev",
+      "text": "Blockchain Development"
+    }
+  ]
+}

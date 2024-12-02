@@ -1,0 +1,50 @@
+[
+  {
+    "alt": "nodejs", "src": "https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg"
+  },
+  {
+    "alt": "django", "src": "https://www.vectorlogo.zone/logos/djangoproject/djangoproject-icon.svg"
+  },
+  {
+    "alt": "typescript", "src": "https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg"
+  },
+  {
+    "alt": "javascript", "src": "https://www.vectorlogo.zone/logos/javascript/javascript-icon~alt.svg"
+  },
+  {
+    "alt": "python", "src": "https://www.vectorlogo.zone/logos/python/python-icon.svg"
+  },
+  {
+    "alt": "mongodb", "src": "https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg"
+  },
+  {
+    "alt": "mysql", "src": "https://www.vectorlogo.zone/logos/mysql/mysql-icon.svg"
+  },
+  {
+    "alt": "redis", "src": "https://www.vectorlogo.zone/logos/redis/redis-icon.svg"
+  },
+  {
+    "alt": "git", "src": "https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"
+  },
+  {
+    "alt": "react", "src": "https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg"
+  },
+  {
+    "alt": "nextjs", "src": "https://www.vectorlogo.zone/logos/nextjs/nextjs-icon.svg"
+  },
+  {
+    "alt": "tailwindcss", "src": "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg"
+  },
+  {
+    "alt": "copilot", "src": "https://www.vectorlogo.zone/logos/github_copilot/github_copilot-icon.svg"
+  },
+  {
+    "alt": "github", "src": "https://www.vectorlogo.zone/logos/github/github-icon.svg"
+  },
+  {
+    "alt": "solidity", "src": "https://docs.soliditylang.org/en/latest/_images/solidity_logo.svg"
+  },
+  {
+    "alt": "ethereum", "src": "https://www.vectorlogo.zone/logos/ethereum/ethereum-icon.svg"
+  }
+]
