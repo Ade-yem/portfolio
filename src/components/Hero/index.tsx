@@ -1,5 +1,5 @@
 "use client";
-import { TypeAnimation } from "react-type-animation";
+import { TypeAnimation } from "@/components/ui/typingAnimation";
 import { Picture } from "../ui/myPic";
 import { StackCarousel } from "../ui/stackCarousel";
 import { useLocalStorage } from "../hooks/localStorage";
@@ -20,7 +20,7 @@ export default function Hero() {
           <div className="flex flex-col space-y-2 justify-start">
             <div className="flex flex-wrap text-base text-custom-red">
               {"<span>"}
-              <TypeAnimation sequence={["Hi, I'm Adeyemi"]} />
+              <TypeAnimation text={"Hi, I'm Adeyemi"} delay={2000} />
               {"</span>"}
             </div>
             <div className="space-y-2">
