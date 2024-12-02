@@ -4,8 +4,7 @@ import { Dispatch, SetStateAction, useRef, useState } from "react";
 import ChangeTheme from "./ui/themeChanger";
 import { Logo, MenuLinks, SocialLinks } from "./ui/Logo";
 import { useOutsideClick } from "./hooks/outsideClick";
-import details from "@/services/details.json"
-
+import details from "@/services/details.json";
 
 const Burger = ({
   opened,
@@ -124,7 +123,7 @@ const GetInTouch = ({
         </h2>
         <p className="dm-mono-regular-italic leading-8 p-4 text-wrap">
           I&apos;m always excited to take on new projects and collaborate with
-          innovative minds. 
+          innovative minds.
         </p>
       </div>
       <div className="p-4 block space-y-2 dm-mono-light dark:text-custom-white text-slate-800">
@@ -146,7 +145,7 @@ const GetInTouch = ({
       <div className="p-4 block space-y-2 dm-mono-light dark:text-custom-white text-slate-800">
         <p>Socials</p>
         <div className="max-w-[100px] flex justify-start">
-          <SocialLinks/>
+          <SocialLinks />
         </div>
       </div>
     </div>
@@ -163,7 +162,7 @@ const SideBar = ({
   useOutsideClick(openedRef, () => setOpened(false));
   return (
     <div
-      className={`z-10 duration-200 bg-dark-bg absolute top-0 right-0 h-screen py-4 side-bar rounded-sm shadow-sm ${
+      className={`z-10 duration-200 bg-dark-bg absolute top-0 right-0 h-screen py-4 side-bar w-[300px] rounded-sm shadow-sm ${
         opened ? "block" : "hidden"
       }`}
       ref={openedRef}
@@ -191,13 +190,36 @@ const SideBar = ({
         </div>
       </div>
       <div className="flex flex-col justify-start py-3 text-lg text-white/60 space-x-3 dm-mono-regular">
-        <a href="#about" className="border-b border-b-slate-500 py-2 px-4 hover:opacity-70">
+        <a
+          href="#about"
+          className="border-b border-b-slate-500 py-2 px-4 hover:opacity-70"
+        >
           About me
         </a>
-        <a href="#projects" className="border-b border-b-slate-500 py-2 px-4 hover:opacity-70" >Resume</a>
-        <a href="#services" className="border-b border-b-slate-500 py-2 px-4 hover:opacity-70" >Services</a>
-        <a href="#portfolio" className="border-b border-b-slate-500 py-2 px-4 hover:opacity-70" >Portfolio</a>
-        <a href="#contact" className="border-b border-b-slate-500 py-2 px-4 hover:opacity-70" >Contact</a>
+        <a
+          href="#projects"
+          className="border-b border-b-slate-500 py-2 px-4 hover:opacity-70"
+        >
+          Resume
+        </a>
+        <a
+          href="#services"
+          className="border-b border-b-slate-500 py-2 px-4 hover:opacity-70"
+        >
+          Services
+        </a>
+        <a
+          href="#portfolio"
+          className="border-b border-b-slate-500 py-2 px-4 hover:opacity-70"
+        >
+          Portfolio
+        </a>
+        <a
+          href="#contact"
+          className="border-b border-b-slate-500 py-2 px-4 hover:opacity-70"
+        >
+          Contact
+        </a>
       </div>
     </div>
   );
@@ -251,7 +273,7 @@ export default function Header() {
         <Logo />
         <MenuLinks />
         <div className="hidden md:block">
-          <SocialLinks/>
+          <SocialLinks />
         </div>
       </div>
       <div className="flex justify-end w-fit">
