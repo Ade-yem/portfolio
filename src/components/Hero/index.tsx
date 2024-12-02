@@ -10,12 +10,12 @@ export default function Hero() {
   return (
     <article className="bg-white dark:bg-dark-bg dm-mono-regular w-full min-h-screen md:max-h-screen p-[3em] rounded-md card shadow-sm">
       <div className="grid grid-cols-1 md:grid-cols-2">
-        <div className="relative min-h-[400px] xs:p-5 p-2">
+        <div className="relative min-h-[400px] base:p-5 p-2">
           <div className="sm:absolute sm:bottom-0">
             <Picture />
           </div>
         </div>
-        <div className="flex w-full flex-col justify-stretch xs:p-5 p-2">
+        <div className="flex w-full flex-col justify-stretch base:p-5 p-2">
           <div className="flex flex-col space-y-2 justify-start">
             <div className="flex flex-wrap text-base text-custom-red">
               {"<span>"}

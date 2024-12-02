@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export const Picture = () => {
   return (
-    <div className="xs:p-5 p-2 h-fit w-fit relative">
+    <div className="base:p-5 p-2 h-fit w-fit relative">
       <div className="">
         <div>
           <Image
