@@ -58,6 +58,16 @@
     "liveLink": "https://fitlife360-dlh4.onrender.com",
     "github": "https://github.com/bigtammy1/fitlife360",
     "image": "/fitlife360.png"
+  },
+  {
+    "title": "scaffold-mernn",
+    "description": "A scaffold generator for a fill stack nodejs project which follows the appropriate mvc architecture.",
+    "client": "Portfolio project",
+    "duration": "20 days",
+    "technologies": "Node.js, Express, React, MySQL, Sequelize, MongoDB, Mongoose",
+    "liveLink": "https://www.npmjs.com/package/scaffold-mernn",
+    "github": "https://github.com/Ade-yem/scaffold",
+    "image": "/scaffold.png"
   }
 
 
