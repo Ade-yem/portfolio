@@ -4,7 +4,7 @@ import "./font.css";
 
 export const metadata: Metadata = {
   title: "Adeyemi Adejumo",
-  description: "Adeyemi's Portfolio",
+  description: "Adeyemi Adejumo's Portfolio",
 };
 
 export default function RootLayout({
@@ -14,6 +14,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <meta
+        name="apple-mobile-web-app-title"
+        content="Adeyemi Adejumo's Portfolio"
+      />
       <body className="bg-slate-100 dark:bg-slate-700">{children}</body>
     </html>
   );

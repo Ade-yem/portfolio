@@ -1,3 +1,5 @@
+"use client";
+
 import { useEffect } from "react";
 import { useLocalStorage } from "../hooks/localStorage";
 
@@ -6,20 +8,13 @@ export default function ChangeTheme() {
   useEffect(() => {
     if (theme === "dark") {
       document.documentElement.classList.add("dark");
-      setTheme("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
     }
-  }, [setTheme, theme]);
+  }, [theme]);
 
   const toggleTheme = () => {
-    if (document.documentElement.classList.contains("dark")) {
-      document.documentElement.classList.remove("dark");
-      localStorage.setItem("theme", "light");
-      setTheme("light");
-    } else {
-      document.documentElement.classList.add("dark");
-      localStorage.setItem("theme", "dark");
-      setTheme("dark");
-    }
+    setTheme(theme === "dark" ? "light" : "dark");
   };
   return (
     <div

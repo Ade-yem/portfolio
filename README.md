@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Adeyemi's Professional Portfolio
 
-## Getting Started
+Welcome to the repository of my personal portfolio website! I am **Adeyemi Adejumo**, a dedicated **Full Stack Software Engineer** and **Blockchain Developer** with a passion for building robust, scalable, and innovative digital solutions.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 👋 About Me
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+I am a software engineer with a unique background—I hold a **Bachelor's Degree in Civil Engineering** from **Obafemi Awolowo University** (2023), which has instilled in me a strong foundation in structural logic and problem-solving. 
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Since transitioning into tech, I have:
+- Completed the **ALX Software Engineering Programme** with a specialization in **Backend Development**.
+- Mastered **Blockchain Development** through **BorderlessDev**, focusing on decentralized applications (dApps) and smart contracts.
+- Gained expertise in a versatile tech stack, ranging from modern frontend frameworks like **Next.js** and **React** to powerful backend systems using **Node.js** and **Django**.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+I believe in building software that isn't just functional but also future-proof and user-centric.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🌐 What is this Website?
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This portfolio is more than just a landing page—it's a live demonstration of my technical capabilities and a curated journey through my professional path. It serves to:
+- **Showcase Projects**: From complex fintech solutions like *Jekajodawo* to Web3 dApps like *HealthChain*.
+- **Demonstrate Technical Stack**: A visual carousel of the technologies I use daily to build high-performance applications.
+- **Provide Seamless Contact**: A bridge for potential collaborators, clients, and employers to reach me directly.
+- **Modern Experience**: The site is built with **Next.js 15**, **React 19**, and **Tailwind CSS**, featuring dark mode, sleek animations, and a fully responsive layout.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🛠️ The Tech Behind the Portfolio
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Frontend**: Next.js 15 (App Router), React 19, TypeScript
+- **Styling**: Tailwind CSS (Custom Theme & Glassmorphism)
+- **Services**: EmailJS (Contact Form), Resend, Convex
+- **Animations**: Typing effects and infinite-scrolling stack carousels
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 📂 Explore the Code
+
+If you're a developer or a curious visitor, feel free to explore the repository. I follow clean code practices and a modular component-based architecture:
+- `src/components`: UI components designed for high reusability.
+- `src/app`: Modern routing using Next.js App Router.
+- `src/services`: Centralized data management via JSON to keep the content easily updatable.
+
+---
+
+## 📬 Connect with Me
+
+I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.
+
+- **LinkedIn**: [linkedin.com/in/adeyemi223](https://linkedin.com/in/adeyemi223)
+- **GitHub**: [@Ade-yem](https://github.com/Ade-yem)
+- **X (Twitter)**: [@AdeyemiAde94247](https://x.com/AdeyemiAde94247)
+- **Email**: [aadejumo72@gmail.com](mailto:aadejumo72@gmail.com)
+
+---
+
+Built with ❤️ by **Adeyemi** &copy; 2026.

@@ -86,7 +86,7 @@ const GetInTouch = ({
   getInTouch: boolean;
   setGetInTouch: Dispatch<SetStateAction<boolean>>;
 }) => {
-  const getInTouchRef = useRef<HTMLDivElement>(null);
+  const getInTouchRef = useRef<HTMLDivElement | null>(null);
   useOutsideClick(getInTouchRef, () => setGetInTouch(false));
   return (
     <div
@@ -127,14 +127,6 @@ const GetInTouch = ({
         </p>
       </div>
       <div className="p-4 block space-y-2 dm-mono-light dark:text-custom-white text-slate-800">
-        <p>Phone Number</p>
-        <p>{details.phone}</p>
-      </div>
-      <div className="p-4 block space-y-2 dm-mono-light dark:text-custom-white text-slate-800">
-        <p>Phone Number</p>
-        <p>{details.phone}</p>
-      </div>
-      <div className="p-4 block space-y-2 dm-mono-light dark:text-custom-white text-slate-800">
         <p>Email</p>
         <p>{details.email}</p>
       </div>
@@ -158,7 +150,7 @@ const SideBar = ({
   opened: boolean;
   setOpened: Dispatch<SetStateAction<boolean>>;
 }) => {
-  const openedRef = useRef<HTMLDivElement>(null);
+  const openedRef = useRef<HTMLDivElement | null>(null);
   useOutsideClick(openedRef, () => setOpened(false));
   return (
     <div
@@ -197,7 +189,7 @@ const SideBar = ({
           About me
         </a>
         <a
-          href="#projects"
+          href="#resume"
           className="border-b border-b-slate-500 py-2 px-4 hover:opacity-70"
         >
           Resume

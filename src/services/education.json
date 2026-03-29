@@ -1,6 +1,11 @@
 {
   "education": [
     {
+      "date": "2026-2026",
+      "title": "Atrium Uniswap V4 Hooks",
+      "text": "Building Uniswap V4 hooks"
+    },
+    {
       "date": "2024-2024",
       "title": "BorderlessDev",
       "text": "Blockchain Development"

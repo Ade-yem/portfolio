@@ -5,7 +5,7 @@ export const Logo = () => {
   return (
     <div className="flex space-x-2 h-fit justify-center items-center text-pretty text-xl">
       <Code color="#ff3131" />
-      <span className="dm-mono-medium text-white">
+      <span className="dm-mono-medium text-gray-800 dark:text-white">
         Adeyemi<span className="opacity-90">.</span>
         <span className="opacity-80">dev</span>
       </span>
@@ -15,8 +15,8 @@ export const Logo = () => {
 
 export const MenuLinks = () => {
   return (
-    <div className="flex text-white/60 space-x-2 h-fit justify-center items-center text-pretty text-base">
-      <a href="#about" className="text-white">
+    <div className="flex text-gray-800 dark:text-white/60 space-x-2 h-fit justify-center items-center text-pretty text-base">
+      <a href="#about" className="text-gray-800 dark:text-white">
         About me
       </a>
       <a href="#projects">Resume</a>

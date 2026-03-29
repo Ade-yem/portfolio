@@ -1,74 +1,84 @@
 [
   {
-    "title": "Jekajodawo",
-    "description": "A platform where users can make group and individual savings",
-    "client": "Hackathon Project",
-    "duration": "45 days",
-    "technologies": "Node.js, Next.js, Convex, Paystack, Resend",
-    "liveLink": "https://jekajodawo.toluwaniose.com.ng/",
-    "github": "https://github.com/Ade-yem/contrib",
-    "image": "/jekajodawo.png"
-  },
-  {
-    "title": "Toluwaniose Records",
-    "description": "A book keeping app for prices, sales and debts record",
-    "client": "Toluwaniose",
-    "duration": "45 days",
-    "technologies": "Node.js, Vue.js, MongoDB",
-    "liveLink": "https://toluwaniose-records.onrender.com",
-    "github": "https://github.com/Ade-yem/debt-list",
-    "image": "/records.png"
-  },
-  {
-    "title": "HealthChain",
-    "description": "A platform where hospitals and patients store and share patient records",
-    "client": "Toluwaniose",
-    "duration": "45 days",
-    "technologies": "Node.js, Ethers.js, Next.js, Solidity, Lisk",
-    "liveLink": "https://healthchain-v1.vercel.app/",
-    "github": "https://github.com/Ade-yem/First_dapp",
-    "image": "/healthchain.png"
-  },
-  {
-    "title": "E-Validify",
-    "description": "A platform to verify emails using APIs",
-    "client": "Hackathon Project",
-    "duration": "2 weeks",
-    "technologies": "Node.js, MongoDB",
-    "liveLink": "https://e-validify.onrender.com",
-    "github": "https://github.com/Ade-yem/contrib",
-    "image": "/e-validify.png"
-  },
-  {
     "title": "Link",
     "description": "A platform to connect users to handy men for their home tasks",
     "client": "Hackathon Project",
-    "duration": "2 weeks",
     "technologies": "Node.js, Next.js, Solidity, PostgreSQL",
     "liveLink": "https://linker.toluwaniose.com.ng/",
-    "github": "https://vercel.com/ade-yems-projects/link",
-    "image": "/linker.png"
-  },
-  {
-    "title": "FitLife360",
-    "description": "A platform where users can connect with their fitness trainers and gyms",
-    "client": "Portfolio project",
-    "duration": "45 days",
-    "technologies": "Node.js, Flask, React, MySQL, Redis",
-    "liveLink": "https://fitlife360-dlh4.onrender.com",
-    "github": "https://github.com/bigtammy1/fitlife360",
-    "image": "/fitlife360.png"
+    "image": "/linker.png",
+    "problem": "",
+    "solution": "",
+    "architecture": ""
   },
   {
     "title": "scaffold-mernn",
     "description": "A scaffold generator for a fill stack nodejs project which follows the appropriate mvc architecture.",
     "client": "Portfolio project",
-    "duration": "20 days",
     "technologies": "Node.js, Express, React, MySQL, Sequelize, MongoDB, Mongoose",
     "liveLink": "https://www.npmjs.com/package/scaffold-mernn",
     "github": "https://github.com/Ade-yem/scaffold",
-    "image": "/scaffold.png"
+    "image": "/scaffold.png",
+    "problem": "",
+    "solution": "",
+    "architecture": ""
+  },
+  {
+    "title": "Jekajodawo",
+    "description": "A platform where users can make group and individual savings",
+    "client": "Hackathon Project",
+    "technologies": "Node.js, Next.js, Convex, Paystack, Resend",
+    "liveLink": "https://jekajodawo.toluwaniose.com.ng/",
+    "github": "https://github.com/Ade-yem/contrib",
+    "image": "/jekajodawo.png",
+    "problem": "",
+    "solution": "",
+    "architecture": ""
+  },
+  {
+    "title": "Toluwaniose Records",
+    "description": "A book keeping app for prices, sales and debts record",
+    "client": "Toluwaniose",
+    "technologies": "Node.js, Vue.js, MongoDB",
+    "liveLink": "https://toluwaniose-records.onrender.com",
+    "github": "https://github.com/Ade-yem/debt-list",
+    "image": "/records.png",
+    "problem": "",
+    "solution": "",
+    "architecture": ""
+  },
+  {
+    "title": "HealthChain",
+    "description": "A platform where hospitals and patients store and share patient records",
+    "client": "Toluwaniose",
+    "technologies": "Node.js, Ethers.js, Next.js, Solidity, Lisk",
+    "liveLink": "https://healthchain-v1.vercel.app/",
+    "github": "https://github.com/Ade-yem/First_dapp",
+    "image": "/healthchain.png",
+    "problem": "",
+    "solution": "",
+    "architecture": ""
+  },
+  {
+    "title": "Chatme",
+    "description": "An AI agent platform to handle customer service chats with website widgets",
+    "client": "Collaboration Project",
+    "technologies": "Node.js, Next.js, PostgreSQL",
+    "liveLink": "https://chatmeapp.chat/",
+    "image": "/chatme.png",
+    "problem": "",
+    "solution": "",
+    "architecture": ""
+  },
+  {
+    "title": "Nexuz",
+    "description": "A gaming infrastructure platform where users can connect their games and bet on themselves as the winner",
+    "client": "Portfolio project",
+    "technologies": "Node.js, React, Supabase",
+    "liveLink": "https://nexuz.xyz/",
+    "image": "/nexuz.png",
+    "problem": "",
+    "solution": "",
+    "architecture": ""
   }
-
-
+  
 ]

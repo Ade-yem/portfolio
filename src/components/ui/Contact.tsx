@@ -11,7 +11,7 @@ export const Contact = () => {
   const publicKey = process.env.NEXT_PUBLIC_KEY as string;
   const serviceId = process.env.NEXT_PUBLIC_SERVICE_ID as string;
   const templateId = process.env.NEXT_PUBLIC_TEMPLATE_ID as string;
-  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (e: React.SubmitEvent<HTMLFormElement>) => {
     e.preventDefault();
     setSubmit(true);
     setMessage("Sending");
@@ -164,31 +164,6 @@ export const Contact = () => {
                 <span className=" text-gray-600 dark:text-gray-300">Email</span>
                 <p className="text-gray-600 dm-mono-light-italic dark:text-white">
                   {details.email}
-                </p>
-              </div>
-            </a>
-            <a
-              href={`tel:${details.phone}`}
-              className="flex justify-start space-x-3 items-center min-h-fit"
-            >
-              <div className="p-2 border border-slate-600">
-                <svg
-                  className="text-gray-800 dark:text-white fill-deep-green dark:fill-custom-green"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="35"
-                  height="35"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M7.978 4a2.553 2.553 0 0 0-1.926.877C4.233 6.7 3.699 8.751 4.153 10.814c.44 1.995 1.778 3.893 3.456 5.572 1.68 1.679 3.577 3.018 5.57 3.459 2.062.456 4.115-.073 5.94-1.885a2.556 2.556 0 0 0 .001-3.861l-1.21-1.21a2.689 2.689 0 0 0-3.802 0l-.617.618a.806.806 0 0 1-1.14 0l-1.854-1.855a.807.807 0 0 1 0-1.14l.618-.62a2.692 2.692 0 0 0 0-3.803l-1.21-1.211A2.555 2.555 0 0 0 7.978 4Z" />
-                </svg>
-              </div>
-              <div className="inline-block space-y-2">
-                <span className=" text-gray-600 dark:text-gray-300">
-                  Telephone
-                </span>
-                <p className="text-gray-600 dm-mono-light-italic dark:text-white">
-                  {details.phone}
                 </p>
               </div>
             </a>

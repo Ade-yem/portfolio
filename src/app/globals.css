@@ -1,6 +1,46 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@variant dark (&:where(.dark, .dark *));
+
+
+@theme {
+  --color-custom-red: rgba(255, 49, 49, 0.5);
+  --color-custom-blue: rgba(0, 255, 255, 0.5);
+  --color-custom-green: #62A92B;
+  --color-deep-green: rgba(6, 64, 43, 1);
+  --color-custom-orange: rgba(255, 255, 113, 0.5);
+  --color-dark-bg: #272730;
+  --color-custom-white: #dee2e6;
+
+  --font-dm-mono: "DM Mono", monospace;
+
+  --animate-infinite-scroll: infinite-scroll 25s linear infinite;
+  --animate-right-left: right-left 16s linear infinite;
+  --animate-left-right: left-right 32s linear infinite;
+  --animate-float-in: float-in 3s ease-in-out infinite;
+
+  @keyframes infinite-scroll {
+    from { transform: translateX(0); }
+    to { transform: translateX(-100%); }
+  }
+  @keyframes right-left {
+    from { transform: translateX(0); }
+    to { transform: translateX(-100%); }
+  }
+  @keyframes left-right {
+    from { transform: translateX(-100%); }
+    to { transform: translateX(0); }
+  }
+  @keyframes float-in {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10); }
+  }
+
+  --breakpoint-base: 480px;
+  --breakpoint-xs: 360px;
+
+  --background-image-grid-like: linear-gradient(to right, gray 0.5px, transparent 0.5px), linear-gradient(to bottom, gray 0.5px, transparent 0.5px);
+}
 
 @layer components {
   .bordered-list {
