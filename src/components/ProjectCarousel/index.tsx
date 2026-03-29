@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Project, ProjectLinks, CaseStudyButton } from "./Works";
+import { Project, ProjectLinks } from "./Works";
 import Image from "next/image";
 import { motion, useScroll } from "framer-motion";
 
@@ -67,12 +67,12 @@ function ProjectsScrollStory({ projectList }: { projectList: Project[] }) {
   return (
     <div className="relative w-full flex flex-col pt-4">
       {/* Global Progress Indicator */}
-      <div className="sticky top-[10vh] left-0 w-full h-1.5 bg-slate-200 dark:bg-slate-800 z-50 rounded-full overflow-hidden mb-8 md:mb-16">
+      {/* <div className="sticky top-[10vh] left-0 w-full h-1.5 bg-slate-200 dark:bg-slate-800 z-50 rounded-full overflow-hidden mb-8 md:mb-16">
         <motion.div 
           className="h-full bg-custom-green origin-left" 
           style={{ scaleX: scrollYProgress }} 
         />
-      </div>
+      </div> */}
 
       {projectList.map((project, i) => (
         <StorySection key={i} project={project} index={i} />
@@ -90,7 +90,7 @@ function StorySection({ project, index }: { project: Project; index: number }) {
       whileInView={{ opacity: 1 }}
       viewport={{ margin: "-100px" }}
       transition={{ duration: 1 }}
-      className={`min-h-[90vh] flex flex-col ${isEven ? 'md:flex-row' : 'md:flex-row-reverse'} items-center justify-center gap-12 lg:gap-20 py-16 md:py-24 border-b border-slate-200 dark:border-slate-800/50 last:border-0 relative`}
+      className={`min-h-[90vh] flex flex-col ${isEven ? 'md:flex-row' : 'md:flex-row-reverse'} items-center justify-center gap-6 lg:gap-10 py-8 md:py-12 border-b border-slate-200 dark:border-slate-800/50 last:border-0 relative`}
     >
       {/* Content Side */}
       <div className="w-full md:w-1/2 flex flex-col space-y-6 z-10">
@@ -100,9 +100,6 @@ function StorySection({ project, index }: { project: Project; index: number }) {
           viewport={{ once: true, margin: "-100px" }}
           transition={{ delay: 0.2, duration: 0.7, ease: "easeOut" }}
         >
-          <span className="text-custom-green font-black tracking-widest uppercase text-sm mb-4 block">
-            Chapter 0{index + 1}
-          </span>
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-black mb-6 dark:text-white leading-tight">
             {project.title}
           </h2>
@@ -139,7 +136,7 @@ function StorySection({ project, index }: { project: Project; index: number }) {
           </div>
           
           <div className="flex flex-wrap gap-4 items-center">
-            <CaseStudyButton project={project} />
+            {/* <CaseStudyButton project={project} /> */}
             <ProjectLinks project={project} />
           </div>
         </motion.div>

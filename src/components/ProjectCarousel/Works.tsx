@@ -173,7 +173,7 @@ export const Project: React.FC<ProjectProps> = ({ project, next, prev }) => {
 
         <div className="flex flex-col space-y-6">
           <div className="flex flex-wrap gap-4 items-center">
-            <CaseStudyButton project={project} />
+            {/* <CaseStudyButton project={project} /> */}
             <ProjectLinks project={project} />
           </div>
 

@@ -8,7 +8,10 @@ export const Database = ({
   return (
     <svg
       {...props}
-      className={cn("stroke-slate-900 stroke-1 dark:stroke-white group-hover:stroke-custom-green", className)}
+      className={cn(
+        "stroke-slate-900 stroke-1 dark:stroke-white group-hover:stroke-custom-green",
+        className,
+      )}
       height="40px"
       width="40px"
       version="1.1"

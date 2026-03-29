@@ -90,7 +90,7 @@
   stroke-linejoin: round;
   stroke-miterlimit: 10;
 }
-.stroke-slate-900 dark:stroke-white group-hover:stroke-custom-green {
+.svg-icon {
   fill: none;
   stroke-width: 1;
   stroke-linecap: round;

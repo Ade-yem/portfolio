@@ -6,8 +6,7 @@ export const Picture = () => {
     <div
       className="base:p-5 p-2 h-fit w-fit relative"
       style={{
-        clipPath:
-          "polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%)",
+        clipPath: "polygon(20% 0, 80% 0, 100% 50%, 80% 100%, 20% 100%, 0% 50%)",
       }}
     >
       <Image

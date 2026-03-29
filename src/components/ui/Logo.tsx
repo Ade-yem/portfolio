@@ -1,3 +1,5 @@
+"use client";
+
 import { Code } from "../Code";
 import socials from "@/services/details.json";
 
@@ -16,9 +18,6 @@ export const Logo = () => {
 export const MenuLinks = () => {
   return (
     <div className="flex text-gray-800 dark:text-white/60 space-x-2 h-fit justify-center items-center text-pretty text-base">
-      <a href="#about" className="text-gray-800 dark:text-white">
-        About me
-      </a>
       <a href="#projects">Resume</a>
       <a href="#services">Services</a>
       <a href="#portfolio">Portfolio</a>

@@ -1,5 +1,39 @@
 [
   {
+    "title": "Chatme",
+    "description": "An AI agent platform to handle customer service chats with website widgets",
+    "client": "Collaboration Project",
+    "technologies": "Node.js, Next.js, PostgreSQL",
+    "liveLink": "https://chatmeapp.chat/",
+    "image": "/chatme.png",
+    "problem": "",
+    "solution": "",
+    "architecture": ""
+  },
+  {
+    "title": "Nexuz",
+    "description": "A gaming infrastructure platform where users can connect their games and bet on themselves as the winner",
+    "client": "Portfolio project",
+    "technologies": "Node.js, React, Supabase",
+    "liveLink": "https://nexuz.xyz/",
+    "image": "/nexuz.png",
+    "problem": "",
+    "solution": "",
+    "architecture": ""
+  },
+  {
+    "title": "Jekajodawo",
+    "description": "A platform where users can make group and individual savings",
+    "client": "Hackathon Project",
+    "technologies": "Node.js, Next.js, Convex, Paystack, Resend",
+    "liveLink": "https://jekajodawo.toluwaniose.com.ng/",
+    "github": "https://github.com/Ade-yem/contrib",
+    "image": "/jekajodawo.png",
+    "problem": "",
+    "solution": "",
+    "architecture": ""
+  },
+  {
     "title": "Link",
     "description": "A platform to connect users to handy men for their home tasks",
     "client": "Hackathon Project",
@@ -18,18 +52,6 @@
     "liveLink": "https://www.npmjs.com/package/scaffold-mernn",
     "github": "https://github.com/Ade-yem/scaffold",
     "image": "/scaffold.png",
-    "problem": "",
-    "solution": "",
-    "architecture": ""
-  },
-  {
-    "title": "Jekajodawo",
-    "description": "A platform where users can make group and individual savings",
-    "client": "Hackathon Project",
-    "technologies": "Node.js, Next.js, Convex, Paystack, Resend",
-    "liveLink": "https://jekajodawo.toluwaniose.com.ng/",
-    "github": "https://github.com/Ade-yem/contrib",
-    "image": "/jekajodawo.png",
     "problem": "",
     "solution": "",
     "architecture": ""
@@ -57,28 +79,5 @@
     "problem": "",
     "solution": "",
     "architecture": ""
-  },
-  {
-    "title": "Chatme",
-    "description": "An AI agent platform to handle customer service chats with website widgets",
-    "client": "Collaboration Project",
-    "technologies": "Node.js, Next.js, PostgreSQL",
-    "liveLink": "https://chatmeapp.chat/",
-    "image": "/chatme.png",
-    "problem": "",
-    "solution": "",
-    "architecture": ""
-  },
-  {
-    "title": "Nexuz",
-    "description": "A gaming infrastructure platform where users can connect their games and bet on themselves as the winner",
-    "client": "Portfolio project",
-    "technologies": "Node.js, React, Supabase",
-    "liveLink": "https://nexuz.xyz/",
-    "image": "/nexuz.png",
-    "problem": "",
-    "solution": "",
-    "architecture": ""
   }
-  
 ]

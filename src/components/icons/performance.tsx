@@ -8,7 +8,10 @@ export const PerformanceOptimization = ({
   return (
     <svg
       {...props}
-      className={cn("stroke-slate-900 stroke-1 dark:stroke-white group-hover:stroke-custom-green", className)}
+      className={cn(
+        "stroke-slate-900 stroke-1 dark:stroke-white group-hover:stroke-custom-green",
+        className,
+      )}
       width="40px"
       height="40px"
       viewBox="0 0 192 192"

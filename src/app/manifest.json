@@ -1,21 +1,25 @@
 {
-  "name": "Adeyemi Adejumo's Portfolio",
-  "short_name": "AA",
+  "name": "Adeyemi Adejumo — Full-Stack & Blockchain Developer",
+  "short_name": "Adeyemi",
+  "description": "Portfolio of Adeyemi Adejumo — Full-Stack Software Engineer specialising in scalable Web2 & Web3 systems.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#62A92B",
+  "background_color": "#ffffff",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png",
       "sizes": "192x192",
       "type": "image/png",
-      "purpose": "maskable"
+      "purpose": "any maskable"
     },
     {
       "src": "/web-app-manifest-512x512.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "maskable"
+      "purpose": "any maskable"
     }
-  ],
-  "theme_color": "#ffffff",
-  "background_color": "#ffffff",
-  "display": "standalone"
+  ]
 }

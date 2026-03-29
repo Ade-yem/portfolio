@@ -1,3 +1,4 @@
+"use client";
 import { useEffect, useState } from "react";
 
 export const TypeAnimation = ({ text, delay }: { text: string; delay: number }) => {
@@ -15,7 +16,7 @@ export const TypeAnimation = ({ text, delay }: { text: string; delay: number }) 
   }, [index, text, delay]);
 
   return (
-    <div>
+    <span>
       {current}
       <span className="blinking-cursor">|</span>
       <style jsx>{`
@@ -31,6 +32,6 @@ export const TypeAnimation = ({ text, delay }: { text: string; delay: number }) 
           }
         }
       `}</style>
-    </div>
+    </span>
   );
 };

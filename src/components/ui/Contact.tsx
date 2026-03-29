@@ -1,3 +1,5 @@
+"use client";
+
 import details from "@/services/details.json";
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
@@ -92,7 +94,7 @@ export const Contact = () => {
           <div className="my-2">
             <button
               type="submit"
-              className="text-sm dm-mono-regular tracking-wide text-black dark:text-custom-white hover:bg-opacity-25 hover:translate-x-1
+              className="text-sm cursor-pointer dm-mono-regular tracking-wide text-black dark:text-custom-white hover:bg-opacity-25 hover:translate-x-1
                 focus:outline-none focus:shadow-outline inline-flex"
             >
               {!submit ? (
@@ -140,7 +142,7 @@ export const Contact = () => {
           </div>
         </form>
 
-        <div className="w-full lg:-mt-96 lg:w-fit px-2 py-12 ml-auto bg-white dark:bg-dark-bg rounded-md card">
+        <div className="w-full lg:-mt-80 lg:w-fit px-2 py-12 ml-auto bg-white dark:bg-dark-bg rounded-md card">
           <div className="flex flex-col space-y-3 p-2 text-white">
             <a
               href={`mailto:${details.email}`}

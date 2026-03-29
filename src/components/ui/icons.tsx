@@ -1,3 +1,5 @@
+"use client";
+
 export const Experience: React.FC = () => {
   return (
     <div>
