@@ -1,16 +1,5 @@
 [
   {
-    "title": "Chatme",
-    "description": "An AI agent platform to handle customer service chats with website widgets",
-    "client": "Collaboration Project",
-    "technologies": "Node.js, Next.js, PostgreSQL",
-    "liveLink": "https://chatmeapp.chat/",
-    "image": "/chatme.png",
-    "problem": "",
-    "solution": "",
-    "architecture": ""
-  },
-  {
     "title": "Nexuz",
     "description": "A gaming infrastructure platform where users can connect their games and bet on themselves as the winner",
     "client": "Portfolio project",
